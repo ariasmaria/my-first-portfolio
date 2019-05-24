@@ -11,18 +11,20 @@
 
 <body>
     <header>
-        <img src="images/ux-planet.jpeg" alt="behaviour and design"style="width:100%">
-        <table id="Introduction">
-            <tr>
-                <th>
-                    <h1>Hi!</h1>
-                </th>
-                <th>
-                    <p>My name is María. I am an industral designer from Colombia. <br> My background is in service design, user experience, research, and behavioural design. Now, I am happily adding <em> Front end development</em>  to my repertoir.</p>
-                    <p>In this portfolio you will encounter my developer skills.</p>
-                </th>
-            </tr>
-        </table>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About me</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <img src="images/ux-planet.jpeg" alt="behaviour and design" style="width:100%">
+        <h1>Hi!</h1>
+        <div class=welcome-message>
+            <p>My name is María. I am an industral designer from Colombia. <br> My background is in service design, user experience, research, and behavioural design. Now, I am happily adding <em> Front end development</em>  to my repertoir.</p>
+            <p>In this portfolio you will encounter my developer skills.</p>
+        </div>
     </header>
     
     <main>
@@ -52,25 +54,24 @@
         <section id="contact">
             <h3>Contact</h3>
             <p>If you have comments or sugestions, do not hesitate to contact me</p>
-            <form action="contact.php"></form>
-            <div id=name>
+            
+            <form action="contact.php">
+            <div>
                     <label for="name">Name</label><br>
                     <input type="text" name="name" id="name"> 
-<!-- IS IT CORRECT TO REPEAT THE ID? -->
             </div>
             <br>
-            <div id=email>
+            <div>
                 <label for="email">Email address</label><br>
                 <input type="email" name="email" id="email">
             </div>
             <br>
-            <div id=comment>
+            <div>
                 <label for="comment">Leave your comment here</label><br>
                 <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
             </div>
-            <div>
                 <button type="submit">Send comment</button>
-            </div>
+        </form>
 
         </section>
     
@@ -88,7 +89,7 @@
         <a href="https://www.facebook.com/maria.f.arias.984786"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" alt="facebook link" style="width:50px;"></a>
         <a href=""><img src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png" alt="Instagram link" style="width:50px;"></a>
         <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wimkqo8gDZ0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wimkqo8gDZ0?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
             </footer>
 
     
