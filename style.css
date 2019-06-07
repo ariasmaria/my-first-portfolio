@@ -28,6 +28,9 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+.text-primary {
+    color: coral;
+}
 
 /*navbar menu*/
 #navbar {
@@ -54,4 +57,37 @@ p {
 #navbar ul li a.current {
     border: 1px solid lightgray;
     color: coral;
+}
+
+/*#intro-image {
+    float: center;
+    width:100%;
+    background: url(/images/ux-planet.jpeg) no-repeat center center/cover;
+} */
+
+/*Intro*/
+#intro-text {
+    height: 400px;
+}
+#intro-text h1 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+    font-size: 80px; 
+    color: coral;
+}
+
+#intro-text .welcome-message {
+    float: right;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#intro-text .welcome-message em {
+    color:coral;
 }
