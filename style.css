@@ -91,3 +91,22 @@ p {
 #intro-text .welcome-message em {
     color:coral;
 }
+
+/*main*/
+
+main section{
+    float: left;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    padding: 50px;
+    overflow: hidden;
+}
+
+main aside {
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: left;
+    padding: 50px 30px;
+    overflow: hidden;
